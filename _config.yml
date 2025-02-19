@@ -1,7 +1,0 @@
-# Configuration for GitHub Pages
-title: Brave New World
-description: A world beyond this planet
-baseurl: "/BraveNewWorld"
-url: "https://madeadezign864.github.io"
-theme: minima
-markdown: kramdown
