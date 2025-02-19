@@ -1,7 +1,4 @@
 
-
-
-
 .rowOne{
   background:url(./images/the\ planets.jpg);
   background-size: 100%;
@@ -11,7 +8,6 @@
   font-weight:300;
   text-align:center
  }
- 
  .rowTwo{
      background-color: bisque;
          display:flex;
@@ -19,11 +15,9 @@
          align-items: center;
          justify-content: center;
      }
- 
      @media (max-width: 800px) {
    .rowTwo{
-     flex-direction: column;
-   }
+     flex-direction: column;}
  }
  .rowThree{
      background-color: bisque;
@@ -32,13 +26,10 @@
          align-items: center;
          justify-content: center;
      }
- 
      @media (max-width: 800px) {
    .rowThree{
-     flex-direction: column;
-   }
+     flex-direction: column; }
  }
- 
  .rowfour{
    background-color: bisque;
    display:flex;
@@ -46,13 +37,10 @@
    align-items: center;
    justify-content: center;
      }
- 
      @media (max-width: 800px) {
    .rowfour{
-     flex-direction: column;
-   }
+     flex-direction: column;}
  }
- 
  .col{
    flex: 45%;
    max-width: 45%;
@@ -60,7 +48,6 @@
    text-align: center;
    padding:120px;
  }
- 
  .col3{
    flex: 45%;
    max-width: 45%;
@@ -72,14 +59,10 @@
    max-width: 45%;
    padding: 0 4px;
    padding:120px;
- 
  }
- 
  #buggie{
  border-radius:100%;
  }
- 
- 
  h1{
  padding-top: 100px;
  }
