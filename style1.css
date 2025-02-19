@@ -14,8 +14,6 @@
     color: white;
 text-shadow: 2px 2px 4px #000000;
 }
- 
-  
   h3{
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-weight: 200;
@@ -24,19 +22,16 @@ text-shadow: 2px 2px 4px #000000;
   p{
       color:#3891b4;
       font-weight: 900;
-
   }
   .flex-row{
       display:flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      
   }
   @media (max-width: 800px) {
 .flex-row {
-  flex-direction: column;
-}
+  flex-direction: column;}
 }
 .col{
 flex: 20%;
@@ -69,8 +64,6 @@ background-color: aqua;
   padding-top: 60px;
   box-shadow: 10px 15px 5px 6px #3891b4;op: 60px;
 }
-
-
 .box:hover{
 background-color: chartreuse;
 }
@@ -86,7 +79,6 @@ padding-top: 8px;
 padding-right: 13px;
 padding-bottom: 1px;
 }
-
 .btn:hover{
 background-color: chartreuse;
 color:black;font-weight: 700;
@@ -114,7 +106,6 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 }
-
 a:hover, a:active {
 background-color:chartreuse;
 color:black;
